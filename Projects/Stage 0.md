@@ -1,6 +1,3 @@
-# Project 1: Bash Basic
-
-```bash
 #!/bin/bash
 
 # 1. Print your name
@@ -56,56 +53,3 @@ echo "Files in Opeoluwa folder:"
 ls ../Opeoluwa
 echo "Files in biocomputing folder:"
 ls
-
-
-
-# Project 2: Installing Bioinformatics Software on the Terminal
-
-
-```bash
-# 1. Download the installer
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh 
-
-# 2. Run the installer
-bash Miniconda3-latest-Linux-x86_64.sh 
-
-# 3. Activate your base conda environment (after a quick restart)
-conda --version
-
-# 4. Create a conda environment named funtools
-conda create -n funtools
-
-# 5. Activate the funtools environment
-conda activate funtools
-
-# 6. Install Figlet using conda (or apt-get alternative)
-conda install -c conda-forge figlet
-
-# 7. Run figlet with your name
-figlet Opeoluwa
-
-# 8. Install bwa through the bioconda channel
-conda install -c bioconda bwa
-
-# 9. Install blast through the bioconda channel
-conda install -c bioconda blast
-
-# 10. Install samtools through the bioconda channel
-conda install -c bioconda samtools
-
-# 11. Install bedtools through the bioconda channel
-conda install -c bioconda bedtools
-
-# 12. Install spades.py through the bioconda channel
-conda install -c bioconda spades
-
-# 13. Install bcftools through the bioconda channel
-conda install -c bioconda bcftools
-
-# 14. Install fastp through the bioconda channel
-conda install -c bioconda fastp
-
-# 15. Install multiqc through the bioconda channel
-conda install -c bioconda multiqc
-
-
