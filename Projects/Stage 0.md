@@ -1,3 +1,10 @@
+# 🔬 Bioinformatics Projects and Professional Profile
+
+---
+
+## 📂 Project 1: Bash Basics
+
+
 #!/bin/bash
 
 # 1. Print your name
@@ -53,3 +60,4 @@ echo "Files in Opeoluwa folder:"
 ls ../Opeoluwa
 echo "Files in biocomputing folder:"
 ls
+```bash
