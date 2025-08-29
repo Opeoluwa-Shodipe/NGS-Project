@@ -96,5 +96,5 @@ echo "All bioinformatics tools installed successfully!"
 
 # -------- Professional Profile --------
 echo "Professional Profile"
-echo "1. GitHub: https://github.com/Opeoluwa-Shodipe/NGS-Project-HACKBIO-/blob/main/Projects/Stage%200.md"
+echo "1. GitHub: https://github.com/Opeoluwa-Shodipe/NGS-Project-HACKBIO-/blob/main/Projects/Stage%20zero.sh"
 echo "2. LinkedIn: Video link (to be added)"
