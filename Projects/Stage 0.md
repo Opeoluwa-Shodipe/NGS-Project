@@ -58,6 +58,7 @@ echo "Files in biocomputing folder:"
 ls
 
 
+
 # Project 2: Installing Bioinformatics Software on the Terminal
 
 
