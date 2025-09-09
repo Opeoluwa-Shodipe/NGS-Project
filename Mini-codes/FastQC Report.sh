@@ -24,3 +24,12 @@ echo ""
 echo "To view the FastQC report, download or open the file:"
 echo "  sample_reads_fastqc.html"
 echo "from your current directory in a web browser."
+
+
+
+
+
+
+
+
+Suggested Improvements: The script currently assumes a Linux environment with 'apt-get' as the package manager. To improve portability, consider checking or providing installation support for other operating systems or package managers.
