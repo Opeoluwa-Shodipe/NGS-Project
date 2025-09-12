@@ -37,8 +37,7 @@ scp -r a_adegite@135.181.163.242:~/Eadencre8ives/FastQC/sample_reads_fastqc.html
      No warnings about adapter sequences in "Adapter Content"
      Yes Overrepresented sequences were flagged
 
-#3. The sequencing data in sample_reads.fastq.gz is of generally high quality, with no reads flagged as poor and a consistent read length of 150 bp. The average per-read Phred score is above 30, indicating reliable base calling across most of the dataset. However, the "Per base sequence quality" module reveals a noticeable decline in quality toward the final 15–20 bases, where scores drop below 20, suggesting increased error rates at the read ends.
-
+The sequencing data in sample_reads.fastq.gz is of generally high quality, with no reads flagged as poor and a consistent read length of 150 bp. The average per-read Phred score is above 30, indicating reliable base calling across most of the dataset. However, the "Per base sequence quality" module reveals a noticeable decline in quality toward the final 15–20 bases, where scores drop below 20, suggesting increased error rates at the read ends.
 Additionally, the presence of overrepresented adapter sequences—such as TruSeq and Illumina multiplexing primers—indicates that adapter contamination is present and may interfere with downstream analyses like alignment or variant calling. These issues can lead to misalignments, inflated duplication rates, and biased base composition metrics. To mitigate these effects, trimming low-quality ends and removing adapter sequences using tools like Trimmomatic, Cutadapt, or fastp is strongly recommended before proceeding with further bioinformatics workflows.
 
 
