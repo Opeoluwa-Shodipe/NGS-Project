@@ -7,7 +7,7 @@ mkdir -p repaired alignment_map
 bwa index references/reference.fasta
 
 # Define array of sample names
-samples=(ACBarrie Alsen Baxter Chara Drysdale)
+samples=(ACBarrie Alsene Baxter Chara Drysdale)
 
 # Loop through each sample
 for SAMPLE in "${samples[@]}"; do
@@ -68,7 +68,7 @@ echo "All samples mapped and converted to BAM format."
 
 SAMPLES=(
   "ACBarrie"
-  "Alsen"
+  "Alsene"
   "Baxter"
   "Chara"
   "Drysdale"
