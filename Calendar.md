@@ -1,7 +1,6 @@
 # 📅 Event Calendar (NGS Fundamentals)
 
 ⚠️ **Note:** This calendar is **not fixed** and will continually receive adjustments.  
-👉 Please check **daily** for updates.
 
 ---
 
