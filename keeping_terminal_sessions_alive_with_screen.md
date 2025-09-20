@@ -53,7 +53,7 @@ Use:
 screen -ls
 ```
 
-You'll see something like:
+You will see something like:
 
 ```
 There is a screen on:
