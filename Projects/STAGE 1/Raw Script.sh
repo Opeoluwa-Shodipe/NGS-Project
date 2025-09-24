@@ -135,7 +135,7 @@ main
 
 # -------- Professional Profile --------
 echo "Professional Profile"
-echo "1. GitHub: https://github.com/Opeoluwa-Shodipe/NGS-Project-HACKBIO-/blob/main/Projects/CFTR_WGS_CaseStudy.md"
+echo "1. GitHub: https://github.com/Opeoluwa-Shodipe/NGS-Project-HACKBIO-/blob/main/Projects/STAGE%201/CFTR_WGS_CaseStudy.md"
 echo "2. LinkedIn: Ensure video is uploaded and public."
 
 
