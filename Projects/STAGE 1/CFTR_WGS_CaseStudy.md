@@ -129,7 +129,7 @@ The presence of **two pathogenic CFTR variants in trans** would confirm cystic f
 
 ## Professional Profile
 
-- **GitHub**: [Project Repository](https://github.com/Opeoluwa-Shodipe/NGS-Project-HACKBIO-/blob/main/Projects/CFTR_WGS_CaseStudy.md)  
+- **GitHub**: [Project Repository](https://github.com/Opeoluwa-Shodipe/NGS-Project-HACKBIO-/blob/main/Projects/STAGE%201/CFTR_WGS_CaseStudy.md)  
 - **LinkedIn**: A short video/post will be uploaded explaining the project in lay terms.  
 
 ---
