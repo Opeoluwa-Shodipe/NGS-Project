@@ -146,4 +146,10 @@ write.csv(as.data.frame(res), "results/counts/deseq2_results.csv")
 - DESeq2 manual: https://bioconductor.org/packages/release/bioc/html/DESeq2.html  
 - featureCounts: Liao et al., Bioinformatics 2014  
 - clusterProfiler: Yu et al., OMICS 2012  
-- SRA PRJNA867318  
+- SRA PRJNA867318
+
+- # -------- Professional Profile --------
+echo "Professional Profile"
+echo "1. GitHub: https://github.com/Opeoluwa-Shodipe/NGS-Project-HACKBIO-/blob/main/Projects/STAGE%202/SA_PJI_RNAseq_Project.md
+echo "2. LinkedIn: Ensure video is uploaded and public."
+
