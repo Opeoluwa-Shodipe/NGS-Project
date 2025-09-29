@@ -1,4 +1,10 @@
 #!/bin/bash
+
+# =====================================================
+# Project Script: Bash Basics + Bioinformatics Software
+# Author: Opeoluwa
+# =====================================================
+
 # run_cftr_pipeline.sh
 set -euo pipefail
 
