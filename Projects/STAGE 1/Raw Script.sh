@@ -61,6 +61,9 @@ align_reads() {
   bwa mem -t "$THREADS" "$REF" "$OUTDIR/father_1.trim.fastq.gz" "$OUTDIR/father_2.trim.fastq.gz" \
     | samtools view -b -@ "$THREADS" -o "$OUTDIR/father.unsorted.bam" -
 }
+#1 to repair trimmed reads before aligning to reference genome
+repair.sh in1-trimmed_reads/child_1.fastq.gz in2-trimmed_reads/child_2.fastq.gz out1-child_1_rep.fastq.gz  out2-child_2_rep.fastq.gz outsingle-single.fq
+#2 Alignment code
 bwa mem reference/hg38/hg38.fasta child_1_rep.fastq.gz child_2_rep.fastq.gz > alignment/child.sam
 
 # --- Sorting, Deduplication, Indexing ---
