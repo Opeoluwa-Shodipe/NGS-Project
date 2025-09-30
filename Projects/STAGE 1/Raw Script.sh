@@ -50,6 +50,7 @@ index_reference() {
   [ -f "${REF%.fa}.dict" ] || java -jar "$(which picard)" CreateSequenceDictionary R="$REF" O="${REF%.fa}.dict"
 }
 
+
 # --- Alignment ---
 align_reads() {
   echo "Aligning child reads..."
@@ -60,6 +61,7 @@ align_reads() {
   bwa mem -t "$THREADS" "$REF" "$OUTDIR/father_1.trim.fastq.gz" "$OUTDIR/father_2.trim.fastq.gz" \
     | samtools view -b -@ "$THREADS" -o "$OUTDIR/father.unsorted.bam" -
 }
+bwa mem reference/hg38/hg38.fasta child_1_rep.fastq.gz child_2_rep.fastq.gz > alignment/child.sam
 
 # --- Sorting, Deduplication, Indexing ---
 process_bams() {
