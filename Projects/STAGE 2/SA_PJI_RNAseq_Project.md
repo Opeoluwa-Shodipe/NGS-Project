@@ -150,5 +150,5 @@ write.csv(as.data.frame(res), "results/counts/deseq2_results.csv")
 
 # -------- Professional Profile --------
 - GitHub: https://github.com/Opeoluwa-Shodipe/NGS-Project-HACKBIO-/blob/main/Projects/STAGE%202/SA_PJI_RNAseq_Project.md
-- LinkedIn: Ensure video is uploaded and public."
+- LinkedIn: Ensure video is uploaded and viewed public."
 
