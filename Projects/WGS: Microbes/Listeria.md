@@ -57,3 +57,28 @@ Download the dataset with:
 wget https://raw.githubusercontent.com/HackBio-Internship/2025_project_collection/refs/heads/main/SA_Polony_100_download.sh
 bash SA_Polony_100_download.sh
 
+```
+
+---
+## Project Rubric  
+
+We expect a **code report submitted as a Markdown file** (a mix of code and text explanation).  
+For reference, see example: [Scripting Example](https://github.com/josoga2/bash-course/blob/main/bash/module_7/scripting_1.md)  
+
+### Evaluation Criteria  
+
+| Criterion | Description | Points |
+|-----------|-------------|--------|
+| Organism Identification | Correctly identifies the organism(s) using BLAST | 1 |
+| AMR Gene Detection | Accurately identifies antimicrobial resistance (AMR) genes using **abricate** or similar tools | 1 |
+| AMR Profile Summary | Summarizes AMR profiles across isolates, including prevalence and resistance implications | 2 |
+| Antibiotic Proposals | Proposes evidence-based antibiotics (e.g., **ampicillin + gentamicin**) or alternatives based on AMR profile | 1 |
+| Report Quality | Provides a clear, well-organized report with methods, results, and public health discussion | 2 |
+| Scripts & Documentation | Submits functional scripts (Bash/Python/R) in a GitHub repository with clear documentation | 2 |
+| **Bonus**: Toxin Gene Detection | Identifies toxin genes (e.g., *hly, plcA, plcB*) | +2 |
+
+### Communication Requirement  
+
+In addition to the GitHub submission, you must provide a **LinkedIn Post** containing either:  
+- A **video recording** discussing the project (problems, results, importance) in a way a layperson will understand, **or**  
+- A **long-form written post** explaining the same.  
