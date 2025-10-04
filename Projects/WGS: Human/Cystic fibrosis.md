@@ -42,8 +42,3 @@ See example: [Bash Course Example](https://github.com/josoga2/bash-course/blob/m
 
 ---
 
-## Submission Requirements
-- Provide the link to a **GitHub repo** containing your script.  
-- Provide the link to a **LinkedIn Post** containing either:  
-  - A video recording discussing the project (problems, results, and importance) in a way a layman will understand.  
-  - Or a long-form post discussing the project (problems, results, and importance) in a way a layman will understand.  
