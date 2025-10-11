@@ -1,7 +1,7 @@
 #!/bin/bash
 # =====================================================
 # Project Script: Bash Basics + Bioinformatics Software
-# Author: Opeoluwa
+# Author: Opeoluwa Shodipe
 # =====================================================
 
 # -------- Pre-checks --------
